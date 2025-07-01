@@ -1,6 +1,5 @@
 from llama_index.llms.google_genai import GoogleGenAI
 from llama_index.core  import Settings
-from llama_index.embeddings.ollama import OllamaEmbedding
 from google.api_core.exceptions import ServiceUnavailable
 
 import os
