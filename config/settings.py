@@ -22,8 +22,8 @@ def add_api_key(gemini_api_key):
     Settings.llm = llm
 # 3️⃣ Initialize Google GenAI-based embedding model
 # embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5", device="cpu")
-embed_model = OllamaEmbedding(model_name="nomic-embed-text:v1.5",base_url="http://localhost:11434")
+#embed_model = OllamaEmbedding(model_name="nomic-embed-text:v1.5",base_url="http://localhost:11434")
 
 # 4️⃣ Apply global Settings (optional)
 Settings.llm = llm
-Settings.embed_model = embed_model
+#Settings.embed_model = embed_model
