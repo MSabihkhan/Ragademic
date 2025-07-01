@@ -1,7 +1,7 @@
 from ingestion.loader import load_documents_to_chroma
 from ingestion.pipeline import run_pipeline
 from Vectorstore.index import buildindexandvectorstore, buildChromaDB, get_index_from_chroma
-from chat.engine import create_chat_engine , set_filters
+from chat.engine import create_chat_engine
 from config.settings import add_api_key
 from google.genai.errors import ServerError
 # Load vector index (assumes documents were indexed already via ChromaDB)
