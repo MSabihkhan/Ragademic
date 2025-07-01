@@ -6,3 +6,4 @@ google-generativeai>=0.3.0
 google-api-core>=2.15.0
 streamlit>=1.28.0
 nest-asyncio>=1.5.0
+llama-index-embeddings-google-genai>=0.1.0
